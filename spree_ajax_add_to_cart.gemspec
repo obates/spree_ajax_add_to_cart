@@ -8,15 +8,15 @@ Gem::Specification.new do |s|
   s.required_ruby_version = '>= 1.8.7'
 
   s.author    = 'Trung Lê'
-  s.email     = 'joneslee85@gmail.com'
-  s.homepage  = 'http://github.com/joneslee85/spree_ajax_add_to_cart'
+  s.email     = 'cmunozgar@gmail.com'
+  s.homepage  = 'http://github.com/cmunozgar/spree_ajax_add_to_cart'
 
   s.files       = `git ls-files`.split("\n")
   s.test_files  = `git ls-files -- {spec}/*`.split("\n")
   s.require_path = 'lib'
   s.requirements << 'none'
 
-  s.add_dependency 'spree_core', '~> 1.1.0'
+  s.add_dependency 'spree_core', '~> 1.3.2'
 
   s.add_development_dependency 'capybara'
   s.add_development_dependency 'factory_girl', '~> 2.6.4'
